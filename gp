@@ -1,7 +1,6 @@
 git add -A
-git commit -m "set up validation fields"
-git push origin validation
+git commit -m "added comment module"
+git push origin comments
 git checkout master
-git merge validations
+git merge comments
 git push origin master
-git push heroku master
